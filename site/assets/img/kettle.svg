@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img" aria-label="Stainless steel stovetop kettle">
+  <rect width="400" height="300" fill="#f2f2f1"/>
+  <ellipse cx="200" cy="240" rx="88" ry="11" fill="#e2e2e0"/>
+  <path d="M148 118 L252 118 L262 226 L138 226 Z" fill="#c8ccd1"/>
+  <path d="M148 118 L252 118 L256 168 L144 168 Z" fill="#d6dade"/>
+  <rect x="140" y="106" width="120" height="14" rx="6" fill="#aeb4ba"/>
+  <circle cx="200" cy="102" r="9" fill="#9ba2a9"/>
+  <path d="M252 132 L296 116 L300 130 L258 148 Z" fill="#b8bec4"/>
+  <path d="M148 140 Q118 152 124 186 Q128 206 150 200" fill="none" stroke="#8e959c" stroke-width="9" stroke-linecap="round"/>
+  <ellipse cx="200" cy="120" rx="40" ry="5" fill="#e9edf0" opacity="0.7"/>
+</svg>

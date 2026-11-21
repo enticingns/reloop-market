@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img" aria-label="35mm film camera">
+  <rect width="400" height="300" fill="#eef0f2"/>
+  <ellipse cx="200" cy="234" rx="120" ry="13" fill="#dfe2e6"/>
+  <rect x="98" y="118" width="204" height="106" rx="12" fill="#3a3f46"/>
+  <rect x="98" y="118" width="204" height="16" rx="8" fill="#4a5058"/>
+  <rect x="150" y="96" width="46" height="24" rx="5" fill="#31363c"/>
+  <circle cx="200" cy="172" r="44" fill="#22262b"/>
+  <circle cx="200" cy="172" r="34" fill="#2f353b"/>
+  <circle cx="200" cy="172" r="22" fill="#101418"/>
+  <circle cx="188" cy="160" r="7" fill="#5c646d" opacity="0.8"/>
+  <circle cx="272" cy="140" r="7" fill="#8f979f"/>
+  <rect x="116" y="132" width="24" height="10" rx="3" fill="#8f979f"/>
+</svg>

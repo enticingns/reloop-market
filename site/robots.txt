@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# Listings change constantly; there is nothing here worth crawling twice a day.
+Crawl-delay: 2

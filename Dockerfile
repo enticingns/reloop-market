@@ -1,8 +1,14 @@
 # CF + sing-box + decoy-site VLESS node — single container.
 # Front door: Caddy serves a normal-looking website on every path
-# except the secret WS path, which it reverse-proxies to sing-box.
-# Intended to sit behind Cloudflare (orange-cloud proxied) so the
-# public endpoint looks and behaves like an ordinary website.
+# except a genuine WebSocket upgrade on the secret path, which it
+# reverse-proxies to sing-box. Intended to sit behind Cloudflare
+# (orange-cloud proxied) so the public endpoint looks and behaves
+# like an ordinary website.
+#
+# Both upstream images are pinned to the current stable releases; bump
+# them together and rebuild after reading the sing-box release notes:
+#   sing-box  https://github.com/SagerNet/sing-box/releases
+#   caddy     https://github.com/caddyserver/caddy/releases
 FROM ghcr.io/sagernet/sing-box:v1.14.4 AS singbox
 FROM caddy:2.11.9-alpine AS caddyimg
 

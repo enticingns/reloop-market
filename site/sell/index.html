@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sell an item — Reloop</title>
+<meta name="description" content="List something you no longer use in about two minutes. Free to list, local pickup only.">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="/assets/site.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap header-row">
+    <a class="logo" href="/">
+      <svg viewBox="0 0 32 32" fill="none" aria-hidden="true">
+        <circle cx="16" cy="16" r="13.5" stroke="#0e7c66" stroke-width="2.4"/>
+        <path d="M9.6 17.4a6.4 6.4 0 0 1 11.1-4.3" stroke="#0e7c66" stroke-width="2.4" stroke-linecap="round"/>
+        <path d="M22.4 14.6a6.4 6.4 0 0 1-11.1 4.3" stroke="#f59e0b" stroke-width="2.4" stroke-linecap="round"/>
+      </svg>
+      Reloop
+    </a>
+    <form class="search" action="/browse/" method="get" role="search">
+      <input type="search" name="q" placeholder="Search furniture, bikes, cameras…" aria-label="Search listings">
+      <button type="submit">Search</button>
+    </form>
+    <nav class="header-nav" aria-label="Main">
+      <a href="/browse/">Browse</a>
+      <a href="/sell/">Sell an item</a>
+      <a href="/contact/">Messages</a>
+      <a class="pill" href="/about/">Sign in</a>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+  <div class="prose">
+    <h1>List something you no longer use</h1>
+    <p class="muted">Two minutes now, a buyer this week. Listing is free and we never take a cut of the sale.</p>
+
+    <h2>What are you selling?</h2>
+    <form class="form" action="/contact/" method="get">
+      <div class="field">
+        <label for="title">Listing title</label>
+        <input id="title" name="title" type="text" placeholder="e.g. Oak dining chair, set of four">
+        <span class="hint">Say what it is and the one detail buyers always ask about.</span>
+      </div>
+
+      <div class="row2">
+        <div class="field">
+          <label for="cat">Category</label>
+          <select id="cat" name="cat">
+            <option>Furniture</option>
+            <option>Electronics</option>
+            <option>Bikes</option>
+            <option>Books</option>
+            <option>Home &amp; kitchen</option>
+            <option>Fashion</option>
+            <option>Garden</option>
+            <option>Kids</option>
+          </select>
+        </div>
+        <div class="field">
+          <label for="cond">Condition</label>
+          <select id="cond" name="cond">
+            <option>Like new</option>
+            <option selected>Good</option>
+            <option>Well used</option>
+            <option>For parts</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="row2">
+        <div class="field">
+          <label for="price">Price (USD)</label>
+          <input id="price" name="price" type="text" placeholder="45">
+        </div>
+        <div class="field">
+          <label for="area">Neighbourhood</label>
+          <input id="area" name="area" type="text" placeholder="Brooklyn, NY">
+        </div>
+      </div>
+
+      <div class="field">
+        <label for="desc">Description</label>
+        <textarea id="desc" name="desc" placeholder="Measurements, how long you have had it, any marks worth mentioning."></textarea>
+        <span class="hint">Honest descriptions sell faster and save you a second trip.</span>
+      </div>
+
+      <div class="field">
+        <label for="photos">Photos</label>
+        <input id="photos" name="photos" type="file" accept="image/*" multiple>
+        <span class="hint">Up to six. Daylight, no flash, one photo of any damage.</span>
+      </div>
+
+      <button class="btn btn-primary" type="submit" style="justify-self:start">Publish listing</button>
+      <p class="small muted" style="margin:0">By publishing you agree to our <a href="/terms/">terms</a> and <a href="/about/">seller guidelines</a>.</p>
+    </form>
+
+    <h2>Photo tips that actually matter</h2>
+    <ul>
+      <li>Shoot near a window in the morning — no flash, no filters.</li>
+      <li>Clear the background. A tidy frame reads as a cared-for item.</li>
+      <li>Include one photo of the worst mark, close up. Buyers forgive wear; they don't forgive surprises.</li>
+      <li>Put something in the frame for scale if the size isn't obvious.</li>
+    </ul>
+
+    <h2>Pricing without guessing</h2>
+    <p>Open a few similar listings nearby and look at what actually sold, not what is still sitting there. Furniture in good condition usually moves at 40–60% of what you paid; electronics closer to 30–50%, less if the battery has seen better days. Round numbers attract more messages than odd ones, and a price marked "firm" gets fewer low offers than one marked "or nearest offer".</p>
+
+    <h2>When someone messages</h2>
+    <p>Reply within a day or the listing goes quiet. Agree on a place and time before you share an address, and keep the conversation in Reloop messages until you meet — that way there is a record if something goes wrong.</p>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-cols">
+      <div>
+        <h4>Browse</h4>
+        <a href="/browse/">All listings</a>
+        <a href="/browse/">Furniture</a>
+        <a href="/browse/">Electronics</a>
+        <a href="/browse/">Bikes</a>
+      </div>
+      <div>
+        <h4>Selling</h4>
+        <a href="/sell/">How selling works</a>
+        <a href="/sell/">Photo tips</a>
+        <a href="/sell/">Pricing guide</a>
+      </div>
+      <div>
+        <h4>Reloop</h4>
+        <a href="/about/">About us</a>
+        <a href="/contact/">Contact</a>
+        <a href="/privacy/">Privacy</a>
+        <a href="/terms/">Terms</a>
+      </div>
+      <div>
+        <h4>Community</h4>
+        <a href="/about/">Seller guidelines</a>
+        <a href="/contact/">Report a listing</a>
+        <a href="/contact/">Help</a>
+      </div>
+    </div>
+    <div class="legal">
+      <span>© 2026 Reloop Marketplace. Made by four people and a very old server.</span>
+      <span>Listings are posted by members of the public.</span>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,242 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Browse listings — Reloop</title>
+<meta name="description" content="Browse second-hand furniture, electronics, bikes, books and more, listed by people in your neighbourhood.">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="/assets/site.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap header-row">
+    <a class="logo" href="/">
+      <svg viewBox="0 0 32 32" fill="none" aria-hidden="true">
+        <circle cx="16" cy="16" r="13.5" stroke="#0e7c66" stroke-width="2.4"/>
+        <path d="M9.6 17.4a6.4 6.4 0 0 1 11.1-4.3" stroke="#0e7c66" stroke-width="2.4" stroke-linecap="round"/>
+        <path d="M22.4 14.6a6.4 6.4 0 0 1-11.1 4.3" stroke="#f59e0b" stroke-width="2.4" stroke-linecap="round"/>
+      </svg>
+      Reloop
+    </a>
+    <form class="search" action="/browse/" method="get" role="search">
+      <input type="search" name="q" placeholder="Search furniture, bikes, cameras…" aria-label="Search listings">
+      <button type="submit">Search</button>
+    </form>
+    <nav class="header-nav" aria-label="Main">
+      <a href="/browse/">Browse</a>
+      <a href="/sell/">Sell an item</a>
+      <a href="/contact/">Messages</a>
+      <a class="pill" href="/about/">Sign in</a>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+  <div class="browse-layout">
+
+    <aside class="filters">
+      <h3>Category</h3>
+      <label><input type="checkbox" checked> Furniture</label>
+      <label><input type="checkbox"> Electronics</label>
+      <label><input type="checkbox"> Bikes</label>
+      <label><input type="checkbox"> Books</label>
+      <label><input type="checkbox"> Home &amp; kitchen</label>
+      <label><input type="checkbox"> Fashion</label>
+      <label><input type="checkbox"> Garden</label>
+
+      <h3>Price</h3>
+      <div class="range">
+        <input type="text" value="$0" aria-label="Minimum price">
+        <span class="muted">to</span>
+        <input type="text" value="$250" aria-label="Maximum price">
+      </div>
+
+      <h3>Condition</h3>
+      <label><input type="radio" name="cond" checked> Any</label>
+      <label><input type="radio" name="cond"> Like new</label>
+      <label><input type="radio" name="cond"> Good</label>
+      <label><input type="radio" name="cond"> Well used</label>
+
+      <h3>Distance</h3>
+      <label><input type="radio" name="dist" checked> Within 5 km</label>
+      <label><input type="radio" name="dist"> Within 15 km</label>
+      <label><input type="radio" name="dist"> Anywhere in the city</label>
+    </aside>
+
+    <section>
+      <div class="toolbar">
+        <span>1,284 listings near Brooklyn, NY</span>
+        <label class="small">Sort
+          <select aria-label="Sort listings">
+            <option>Newest first</option>
+            <option>Price: low to high</option>
+            <option>Price: high to low</option>
+            <option>Closest first</option>
+          </select>
+        </label>
+      </div>
+
+      <div class="grid">
+        <a class="card" href="/listing/">
+          <img class="thumb" src="/assets/img/table.svg" alt="Walnut side table" loading="lazy">
+          <div class="body">
+            <span class="price">$45</span>
+            <span class="title">Walnut side table, solid wood, slight ring mark on top</span>
+            <span class="meta"><span>Brooklyn, NY</span><span>2h ago</span></span>
+            <span class="badge">Good condition</span>
+          </div>
+        </a>
+        <a class="card" href="/listing/">
+          <img class="thumb" src="/assets/img/camera.svg" alt="35mm film camera" loading="lazy">
+          <div class="body">
+            <span class="price">$120</span>
+            <span class="title">35mm film camera, recently serviced, light seals replaced</span>
+            <span class="meta"><span>Queens, NY</span><span>5h ago</span></span>
+            <span class="badge">Serviced</span>
+          </div>
+        </a>
+        <a class="card" href="/listing/">
+          <img class="thumb" src="/assets/img/bike.svg" alt="Steel city bike" loading="lazy">
+          <div class="body">
+            <span class="price">$180</span>
+            <span class="title">Steel city bike, 54cm frame, new tyres and brake pads</span>
+            <span class="meta"><span>Jersey City, NJ</span><span>1d ago</span></span>
+            <span class="badge">Just tuned</span>
+          </div>
+        </a>
+        <a class="card" href="/listing/">
+          <img class="thumb" src="/assets/img/lamp.svg" alt="Ceramic table lamp" loading="lazy">
+          <div class="body">
+            <span class="price">$28</span>
+            <span class="title">Ceramic table lamp, linen shade, warm bulb included</span>
+            <span class="meta"><span>Brooklyn, NY</span><span>3h ago</span></span>
+            <span class="badge">Like new</span>
+          </div>
+        </a>
+        <a class="card" href="/listing/">
+          <img class="thumb" src="/assets/img/books.svg" alt="Stack of paperback novels" loading="lazy">
+          <div class="body">
+            <span class="price">$15</span>
+            <span class="title">Box of 14 paperback novels, mostly literary fiction</span>
+            <span class="meta"><span>Hoboken, NJ</span><span>1d ago</span></span>
+            <span class="badge">Bundle</span>
+          </div>
+        </a>
+        <a class="card" href="/listing/">
+          <img class="thumb" src="/assets/img/coat.svg" alt="Wool overcoat" loading="lazy">
+          <div class="body">
+            <span class="price">$60</span>
+            <span class="title">Wool overcoat, size M, charcoal, dry-cleaned last month</span>
+            <span class="meta"><span>Manhattan, NY</span><span>6h ago</span></span>
+            <span class="badge">Size M</span>
+          </div>
+        </a>
+        <a class="card" href="/listing/">
+          <img class="thumb" src="/assets/img/plant.svg" alt="Monstera in terracotta pot" loading="lazy">
+          <div class="body">
+            <span class="price">$22</span>
+            <span class="title">Monstera deliciosa in terracotta pot, about 70cm tall</span>
+            <span class="meta"><span>Astoria, NY</span><span>2d ago</span></span>
+            <span class="badge">Healthy</span>
+          </div>
+        </a>
+        <a class="card" href="/listing/">
+          <img class="thumb" src="/assets/img/skillet.svg" alt="Cast iron skillet" loading="lazy">
+          <div class="body">
+            <span class="price">$30</span>
+            <span class="title">Cast iron skillet, 12 inch, seasoned and ready to use</span>
+            <span class="meta"><span>Brooklyn, NY</span><span>4h ago</span></span>
+            <span class="badge">Well kept</span>
+          </div>
+        </a>
+        <a class="card" href="/listing/">
+          <img class="thumb" src="/assets/img/chair.svg" alt="Oak dining chair" loading="lazy">
+          <div class="body">
+            <span class="price">$55</span>
+            <span class="title">Oak dining chair, one of a set of four, woven seat</span>
+            <span class="meta"><span>Brooklyn, NY</span><span>8h ago</span></span>
+            <span class="badge">Set of 4</span>
+          </div>
+        </a>
+        <a class="card" href="/listing/">
+          <img class="thumb" src="/assets/img/headphones.svg" alt="Over-ear headphones" loading="lazy">
+          <div class="body">
+            <span class="price">$70</span>
+            <span class="title">Over-ear headphones, wired, pads replaced in spring</span>
+            <span class="meta"><span>Queens, NY</span><span>9h ago</span></span>
+            <span class="badge">Good condition</span>
+          </div>
+        </a>
+        <a class="card" href="/listing/">
+          <img class="thumb" src="/assets/img/kettle.svg" alt="Stainless steel kettle" loading="lazy">
+          <div class="body">
+            <span class="price">$25</span>
+            <span class="title">Stainless steel stovetop kettle, 1.7 litre, whistle spout</span>
+            <span class="meta"><span>Hoboken, NJ</span><span>1d ago</span></span>
+            <span class="badge">Like new</span>
+          </div>
+        </a>
+        <a class="card" href="/listing/">
+          <img class="thumb" src="/assets/img/boots.svg" alt="Leather work boots" loading="lazy">
+          <div class="body">
+            <span class="price">$40</span>
+            <span class="title">Leather work boots, UK size 8, resoled once, plenty of life</span>
+            <span class="meta"><span>Manhattan, NY</span><span>2d ago</span></span>
+            <span class="badge">UK 8</span>
+          </div>
+        </a>
+      </div>
+
+      <nav class="pagination" aria-label="Pagination">
+        <span class="current">1</span>
+        <a href="/browse/">2</a>
+        <a href="/browse/">3</a>
+        <a href="/browse/">4</a>
+        <a href="/browse/">Next →</a>
+      </nav>
+    </section>
+
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-cols">
+      <div>
+        <h4>Browse</h4>
+        <a href="/browse/">All listings</a>
+        <a href="/browse/">Furniture</a>
+        <a href="/browse/">Electronics</a>
+        <a href="/browse/">Bikes</a>
+      </div>
+      <div>
+        <h4>Selling</h4>
+        <a href="/sell/">How selling works</a>
+        <a href="/sell/">Photo tips</a>
+        <a href="/sell/">Pricing guide</a>
+      </div>
+      <div>
+        <h4>Reloop</h4>
+        <a href="/about/">About us</a>
+        <a href="/contact/">Contact</a>
+        <a href="/privacy/">Privacy</a>
+        <a href="/terms/">Terms</a>
+      </div>
+      <div>
+        <h4>Community</h4>
+        <a href="/about/">Seller guidelines</a>
+        <a href="/contact/">Report a listing</a>
+        <a href="/contact/">Help</a>
+      </div>
+    </div>
+    <div class="legal">
+      <span>© 2026 Reloop Marketplace. Made by four people and a very old server.</span>
+      <span>Listings are posted by members of the public.</span>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>

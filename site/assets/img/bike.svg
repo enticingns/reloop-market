@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img" aria-label="Steel city bike">
+  <rect width="400" height="300" fill="#eef2f1"/>
+  <ellipse cx="200" cy="238" rx="132" ry="12" fill="#dde3e2"/>
+  <circle cx="128" cy="196" r="52" fill="none" stroke="#3d474a" stroke-width="7"/>
+  <circle cx="272" cy="196" r="52" fill="none" stroke="#3d474a" stroke-width="7"/>
+  <circle cx="128" cy="196" r="7" fill="#6b7679"/>
+  <circle cx="272" cy="196" r="7" fill="#6b7679"/>
+  <path d="M128 196 L176 130 L246 130 L272 196" fill="none" stroke="#0e7c66" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M176 130 L200 196 L128 196" fill="none" stroke="#0e7c66" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M176 130 L172 108 L196 104" fill="none" stroke="#3d474a" stroke-width="7" stroke-linecap="round"/>
+  <path d="M246 130 L252 110 L272 108" fill="none" stroke="#3d474a" stroke-width="7" stroke-linecap="round"/>
+  <rect x="228" y="118" width="44" height="9" rx="4" fill="#3d474a"/>
+  <path d="M200 196 L212 152 L240 150" fill="none" stroke="#8a9599" stroke-width="6" stroke-linecap="round"/>
+</svg>

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img" aria-label="Walnut side table">
+  <rect width="400" height="300" fill="#f2f1ee"/>
+  <ellipse cx="200" cy="244" rx="116" ry="13" fill="#e3e0da"/>
+  <rect x="96" y="116" width="208" height="17" rx="4" fill="#8b5e3c"/>
+  <rect x="96" y="116" width="208" height="5" rx="2" fill="#a4714a"/>
+  <rect x="109" y="133" width="12" height="102" rx="3" fill="#7a5233"/>
+  <rect x="279" y="133" width="12" height="102" rx="3" fill="#7a5233"/>
+  <rect x="141" y="133" width="9" height="94" rx="3" fill="#6d492d"/>
+  <rect x="250" y="133" width="9" height="94" rx="3" fill="#6d492d"/>
+  <ellipse cx="238" cy="126" rx="20" ry="4" fill="#7a5233" opacity="0.25"/>
+</svg>

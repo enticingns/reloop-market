@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contact Reloop</title>
+<meta name="description" content="Questions about a listing, a report, or a bug on the site — this reaches all four of us.">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="/assets/site.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap header-row">
+    <a class="logo" href="/">
+      <svg viewBox="0 0 32 32" fill="none" aria-hidden="true">
+        <circle cx="16" cy="16" r="13.5" stroke="#0e7c66" stroke-width="2.4"/>
+        <path d="M9.6 17.4a6.4 6.4 0 0 1 11.1-4.3" stroke="#0e7c66" stroke-width="2.4" stroke-linecap="round"/>
+        <path d="M22.4 14.6a6.4 6.4 0 0 1-11.1 4.3" stroke="#f59e0b" stroke-width="2.4" stroke-linecap="round"/>
+      </svg>
+      Reloop
+    </a>
+    <form class="search" action="/browse/" method="get" role="search">
+      <input type="search" name="q" placeholder="Search furniture, bikes, cameras…" aria-label="Search listings">
+      <button type="submit">Search</button>
+    </form>
+    <nav class="header-nav" aria-label="Main">
+      <a href="/browse/">Browse</a>
+      <a href="/sell/">Sell an item</a>
+      <a href="/contact/">Messages</a>
+      <a class="pill" href="/about/">Sign in</a>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+  <div class="prose">
+    <h1>Contact us</h1>
+    <p class="muted">One inbox, read by all four of us. We answer on weekdays, usually within a day.</p>
+
+    <form class="form" action="/contact/" method="get" style="margin:26px 0 40px">
+      <div class="row2">
+        <div class="field">
+          <label for="name">Your name</label>
+          <input id="name" name="name" type="text" placeholder="Alex Rivera">
+        </div>
+        <div class="field">
+          <label for="email">Email</label>
+          <input id="email" name="email" type="email" placeholder="you@example.com">
+        </div>
+      </div>
+      <div class="field">
+        <label for="topic">What is it about?</label>
+        <select id="topic" name="topic">
+          <option>A listing I want to report</option>
+          <option>A problem with my account</option>
+          <option>Something on the site is broken</option>
+          <option>Press or partnership</option>
+          <option>Something else</option>
+        </select>
+      </div>
+      <div class="field">
+        <label for="message">Message</label>
+        <textarea id="message" name="message" placeholder="Include the listing link if you have one."></textarea>
+      </div>
+      <button class="btn btn-primary" type="submit" style="justify-self:start">Send message</button>
+      <p class="small muted" style="margin:0">We keep messages for twelve months, then delete them. See <a href="/privacy/">privacy</a>.</p>
+    </form>
+
+    <h2>Other ways to reach us</h2>
+    <dl class="kv">
+      <dt>Email</dt><dd>hello@reloop.example</dd>
+      <dt>Reports</dt><dd>reports@reloop.example</dd>
+      <dt>Post</dt><dd>Reloop, 41 Wyckoff Ave, Brooklyn, NY 11237</dd>
+      <dt>Hours</dt><dd>Monday to Friday, 09:00–18:00 ET</dd>
+    </dl>
+
+    <h2>Common questions</h2>
+    <p><strong>How do I delete a listing?</strong> Sign in, open the listing, and choose "Remove". Photos are deleted with it.</p>
+    <p><strong>Someone did not turn up.</strong> Tell us with the listing link. Two no-shows and the account is paused.</p>
+    <p><strong>Can you hold an item for me?</strong> That is between you and the seller — we do not mediate, but we do read reports.</p>
+    <p><strong>Do you ship?</strong> No. Everything on Reloop is collected in person.</p>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-cols">
+      <div>
+        <h4>Browse</h4>
+        <a href="/browse/">All listings</a>
+        <a href="/browse/">Furniture</a>
+        <a href="/browse/">Electronics</a>
+        <a href="/browse/">Bikes</a>
+      </div>
+      <div>
+        <h4>Selling</h4>
+        <a href="/sell/">How selling works</a>
+        <a href="/sell/">Photo tips</a>
+        <a href="/sell/">Pricing guide</a>
+      </div>
+      <div>
+        <h4>Reloop</h4>
+        <a href="/about/">About us</a>
+        <a href="/contact/">Contact</a>
+        <a href="/privacy/">Privacy</a>
+        <a href="/terms/">Terms</a>
+      </div>
+      <div>
+        <h4>Community</h4>
+        <a href="/about/">Seller guidelines</a>
+        <a href="/contact/">Report a listing</a>
+        <a href="/contact/">Help</a>
+      </div>
+    </div>
+    <div class="legal">
+      <span>© 2026 Reloop Marketplace. Made by four people and a very old server.</span>
+      <span>Listings are posted by members of the public.</span>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>

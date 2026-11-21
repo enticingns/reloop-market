@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img" aria-label="Wool overcoat on a hanger">
+  <rect width="400" height="300" fill="#eef1f3"/>
+  <path d="M200 62 L132 96 L150 104 L200 84 L250 104 L268 96 Z" fill="#9aa4ab"/>
+  <path d="M200 88 L152 108 L128 240 L168 246 L200 150 L232 246 L272 240 L248 108 Z" fill="#3f4850"/>
+  <path d="M200 88 L178 106 L200 176 L222 106 Z" fill="#333b42"/>
+  <path d="M178 106 L200 176 L222 106" fill="none" stroke="#525c64" stroke-width="3"/>
+  <rect x="196" y="150" width="8" height="60" rx="3" fill="#2c343a"/>
+  <circle cx="200" cy="186" r="4" fill="#b9c2c8"/>
+  <circle cx="200" cy="206" r="4" fill="#b9c2c8"/>
+  <rect x="150" y="228" width="34" height="16" rx="4" fill="#3f4850"/>
+  <rect x="216" y="228" width="34" height="16" rx="4" fill="#3f4850"/>
+</svg>

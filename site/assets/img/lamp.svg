@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img" aria-label="Ceramic table lamp">
+  <rect width="400" height="300" fill="#f7f4ef"/>
+  <ellipse cx="200" cy="246" rx="86" ry="11" fill="#e6e0d6"/>
+  <path d="M150 132 L250 132 L272 92 L128 92 Z" fill="#f0e3cd"/>
+  <path d="M150 132 L250 132 L272 92 L128 92 Z" fill="none" stroke="#e0cfb4" stroke-width="2"/>
+  <rect x="194" y="132" width="12" height="76" fill="#cbbfa9"/>
+  <ellipse cx="200" cy="214" rx="44" ry="10" fill="#b9ab93"/>
+  <path d="M156 214 Q156 240 200 240 Q244 240 244 214 Z" fill="#cbbfa9"/>
+  <ellipse cx="200" cy="120" rx="26" ry="6" fill="#fbf3e4" opacity="0.85"/>
+</svg>
