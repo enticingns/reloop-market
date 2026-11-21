@@ -63,7 +63,7 @@
 
 1. 打开仓库的 **Actions** 页（首次需要点一次启用）；
 2. 选 **Build Docker image → Run workflow**（或随便推送一次提交），等它跑绿；
-3. 镜像生成在 `ghcr.io/<你的用户名>/singbox-cf-node:latest`；再到 **Packages** 里把这个包的可见性改为 **Public**（部署平台免密拉取需要）；
+3. 镜像生成在 `ghcr.io/<你的用户名>/reloop-market:latest`。仓库是公开的，包默认也是公开的，部署平台可直接免密拉取（若把仓库改回私有，就要去 **Packages** 把这个包的可见性改成 **Public**）；
 4. 在部署平台创建应用时填**你自己的**镜像地址，设置环境变量 `UUID`、`WS_PATH`、`PORT`。
 
 （也可以本地 `docker build` 后推到任意公共仓库，效果一样。）

@@ -17,7 +17,7 @@
 ## 第二步：部署应用
 
 1. 在工作区点 **New application**；
-2. 选 **Connect GitHub account**，授权后选中 **singbox-cf-node** 仓库（自己的账号先 Fork 一份也可以）；
+2. 选 **Connect GitHub account**，授权后选中 **reloop-market** 仓库；
 3. 平台会自动识别仓库里的 Dockerfile / Compose，保持默认，点部署；
 4. 等待构建完成（约 2–5 分钟），状态变 **Running**。
 
@@ -80,8 +80,8 @@ vless://<UUID>@<应用地址>:443?encryption=none&security=tls&sni=<应用地址
 1. 把仓库 **Fork** 到你的 GitHub 账号；
 2. 打开 Fork 的 **Actions** 页，点启用工作流（Fork 默认禁用，只需点一次）；
 3. 选 **Build Docker image → Run workflow**，等它跑绿（约 2–3 分钟）；
-4. 到仓库的 **Packages**，点开 `singbox-cf-node` 包，在 Package settings 里把可见性改成 **Public**；
-5. 回 Cloady 新建应用选 **Deploy a Docker image**，镜像地址填 `ghcr.io/<你的 GitHub 用户名>/singbox-cf-node:latest`，其余步骤（填环境变量、Redeploy、自检）与正文相同。
+4. 到仓库的 **Packages**，点开 `reloop-market` 包确认可见性是 **Public**（公开仓库的包默认就是公开的，一般无需操作）；
+5. 回 Cloady 新建应用选 **Deploy a Docker image**，镜像地址填 `ghcr.io/<你的 GitHub 用户名>/reloop-market:latest`，其余步骤（填环境变量、Redeploy、自检）与正文相同。
 
 ## 进阶（可选）：套 Cloudflare
 

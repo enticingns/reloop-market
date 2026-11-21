@@ -4,7 +4,7 @@
 #   1. Open the "Actions" tab once and enable workflows (GitHub disables
 #      them on forks by default).
 #   2. Run this workflow (or push any commit) — your image appears at
-#      ghcr.io/<your-username>/singbox-cf-node:latest
+#      ghcr.io/<your-username>/reloop-market:latest
 #   3. Set that package's visibility to Public (repo Packages -> package
 #      settings) so deployment platforms can pull it without credentials.
 name: Build Docker image
