@@ -1,4 +1,4 @@
-# CF + sing-box + 伪装网页的高速 VLESS 节点
+# Reloop 伪装站 + 节点容器（Caddy 前门）
 
 一个容器搞定：**sing-box（VLESS + WebSocket）藏在一个正经网站后面，前面再套 Cloudflare CDN**。
 
